@@ -1,0 +1,57 @@
+<html>
+	<head>
+		<title>change picture</title>
+		<script type = "text/javascript">
+			function displayNextImage() {
+				x = (x === images.length - 1) ? 0 : x + 1;
+				document.getElementById("img").src = images[x];
+			}
+			function displayNextImage2() {
+				x = (x === images.length - 1) ? 0 : x + 1;
+				document.getElementById("img2").src = images[x];
+			}
+			function displayNextImage3() {
+				x = (x === images.length - 1) ? 0 : x + 1;
+				document.getElementById("img3").src = images[x];
+			}
+			function displayNextImage4() {
+				x = (x === images.length - 1) ? 0 : x + 1;
+				document.getElementById("img4").src = images[x];
+			}
+			
+			function startTimer() {
+				setInterval(displayNextImage, 1000);
+				setInterval(displayNextImage2, 1000);
+				setInterval(displayNextImage3, 1000);
+				setInterval(displayNextImage4, 1000);
+			}
+			
+			var images = [], x = -1;
+			images[0] = "gear.jpg";
+			images[1] = "communication.jpg";
+			images[2] = "climber.jpg";
+			images[3] = "einstin.jpg";
+			images[4] = "gracious.jpg";
+			images[5] = "robotnowork.jpg";
+		</script>
+	</head>
+	
+	<body onload = "startTimer()">
+	<style>
+				.fblogo {
+				display: inline-block;
+				margin-left: auto;
+				margin-right: auto;
+				height: 180px;
+				width:210px;
+				}
+				#images{
+				text-align:center;
+				}
+			</style>
+		<img class="fblogo" id="img" src="download.jpg"/>
+		<img class="fblogo" id="img2" src="download.jpg"/>
+		<img class="fblogo" id="img3" src="download.jpg"/>
+		<img class="fblogo" id="img4" src="download.jpg"/>
+	</body>
+</html>

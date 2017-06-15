@@ -1,0 +1,89 @@
+<html>
+	<head>
+		<title>change picture</title>
+		<script type = "text/javascript">
+			function displayNextImage() {
+				x = (x === images.length - 1) ? 0 : x + 1;
+				document.getElementById("img").src = images[x];
+			}
+			function displayNextImage2() {
+				x = (x === images.length - 1) ? 0 : x + 1;
+				document.getElementById("img2").src = images[x];
+			}
+			function displayNextImage3() {
+				x = (x === images.length - 1) ? 0 : x + 1;
+				document.getElementById("img3").src = images[x];
+			}
+			function displayNextImage4() {
+				x = (x === images.length - 1) ? 0 : x + 1;
+				document.getElementById("img4").src = images[x];
+			}
+			
+			function displayNextImage5() {
+				x = (x === images.length - 1) ? 0 : x + 1;
+				document.getElementById("img5").src = images[x];
+			}
+			function displayNextImage6() {
+				x = (x === images.length - 1) ? 0 : x + 1;
+				document.getElementById("img6").src = images[x];
+			}
+			function startTimer() {
+				setInterval(displayNextImage, 60000);
+				setInterval(displayNextImage2, 60000);
+				setInterval(displayNextImage3, 60000);
+				setInterval(displayNextImage4, 60000);
+				setInterval(displayNextImage5, 60000);
+				setInterval(displayNextImage6, 60000);
+			}
+			
+			var images = [], x = -1;
+			images[0] = "/Memes/1.jpg";
+			images[1] = "/Memes/2.jpg";
+			images[2] = "/Memes/3.jpg";
+			images[3] = "/Memes/4.jpg";
+			images[4] = "/Memes/5.jpg";
+			images[5] = "/Memes/6.jpeg";
+			images[6] = "/Memes/7.jpg";
+			images[7] = "/Memes/8.jpg";
+			images[8] = "/Memes/9.jpg";
+			images[9] = "/Memes/10.jpg";
+			images[10] = "/Memes/11.jpg";
+			images[11] = "/Memes/12.jpg";
+			images[12] = "/Memes/13.jpg";
+			images[13] = "/Memes/14.jpg";
+			images[14] = "/Memes/15.jpg";
+			images[15] = "/Memes/16.jpg";
+			images[16] = "/Memes/17.png";
+			images[17] = "/Memes/18.jpg";
+			images[18] = "/Memes/19.jpg";
+			images[19] = "/Memes/20.jpg";
+			images[20] = "/Memes/21.jpg";
+			images[21] = "/Memes/22.jpg";
+			images[22] = "/Memes/23.jpg";
+			images[23] = "/Memes/24.jpg";
+			
+		</script>
+	</head>
+	
+	<body onload = "startTimer()">
+		<style>
+			.fblogo {
+			display: inline-block;
+			margin-left: auto;
+			margin-right: auto;
+			height: 180px;
+			width:210px;
+			}
+			#images{
+			text-align:center;
+			}
+		</style>
+		<img class="fblogo" id="img" src="/Memes/1.jpg"/>
+		<img class="fblogo" id="img2" src="/Memes/2.jpg"/>
+		<img class="fblogo" id="img3" src="/Memes/3.jpg"/>
+		<img class="fblogo" src="/Memes/tft.jpg"/>
+		<img class="fblogo" id="img4" src="/Memes/4.jpg"/>
+		<img class="fblogo" id="img5" src="/Memes/5.jpg"/>
+		<img class="fblogo" id="img6" src="/Memes/6.jpeg"/>
+	</body>
+</html>

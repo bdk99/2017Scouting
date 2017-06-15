@@ -1,0 +1,157 @@
+
+.rainbow {
+	background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+	background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+	color:transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+}
+.rainbowize {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+    td.back{
+    float:center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 310px;
+    padding-left: 310px;
+    font-size: 1em; 
+    }
+    td.center{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 60px;
+    font-size: 1em;
+    }
+    table1 {
+    width:20%;   
+    float:center;
+    border-left:10;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+    font-size: 1em;
+    }
+    div .mdl-textfield__label:after {
+    background: #3498DB;
+    }
+    hr {
+    background-color: grey;
+    border: 0px solid grey;
+    }
+    h5.header{
+    border: 1px solid grey;
+    background-color:#FF5722;
+    color:white
+    }
+    h6.notice{
+    color:orange;
+    }
+    input[type='radio'] {
+    transform: scale(1);
+    }
+    @font-face {
+    font-family: 'Roboto';
+    src: url('RobotoTTF/Roboto-Regular.tff') format('truetype');
+    }
+    #blahblah {
+    font-family: 'Roboto';
+    }
+
+    .alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    opacity: 5;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+    }
+    
+    .alert.info {background-color: #2196F3;}
+    .alert.warning {background-color: red;}
+    .alert.success {background-color: #32cd32;}
+    
+    .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    }
+    
+    .closebtn:hover {
+    color: black;
+    }
+    /* Center the loader */
+    #loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    }
+    
+    @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+    }
+    
+    @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+    }
+    
+    .animate-bottom {
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 5s;
+    animation-name: animatebottom;
+    animation-duration: 5s
+    }
+    
+    @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+    }
+    
+    @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+    }
+    
+    #myDiv {
+    display: none;
+    text-align: center;
+    }
