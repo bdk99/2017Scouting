@@ -3,8 +3,8 @@
 	// Database Connection
 	
 	$host="localhost";
-	$uname="root";
-	$pass="p1nCush1n";
+	$uname="team3641";
+	$pass="password";
 	$database = "2017_game"; 
 	
 	$connection=mysql_connect($host,$uname,$pass); 

@@ -1,7 +1,7 @@
 <?php
     $hostname = "localhost";
-    $user = "root";
-    $password = "p1nCush1n";
+    $user = "team3641";
+    $password = "password";
     $data = "2017_game";
     $prefix = "";
     $database=mysqli_connect($hostname,$user,$password,$data);

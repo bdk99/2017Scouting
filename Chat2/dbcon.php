@@ -1,8 +1,8 @@
 <?php
 //Connection Page
 define(HOST, '3641scouting.local');
-define(USERNAME, 'root');
-define(PASSWORD, 'p1nCush1n');
+define(USERNAME, 'team3641');
+define(PASSWORD, 'password');
 
    mysql_connect( HOST, USERNAME, PASSWORD) or die("Could not connect");
    mysql_select_db ("chat2_db")or die('Cannot connect to the database because: ' . mysql_error());
